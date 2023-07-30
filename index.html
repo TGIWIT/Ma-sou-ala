@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma sou'ala</title>
+</head>
+
+<body>
+    <script>
+        function validateForm() {
+            var name = prompt("Quel est le nom du createur du projet ? ");
+            while (name !== "djamil") {
+                alert("Erreur : Entrez le bon prénom");
+                name = prompt("Quel est le nom du createur du projet ? ");
+            }
+
+            var age = prompt("Quel âge a-t-il ?");
+            while (age !== "17") {
+                alert("Erreur : Entrez le bon mot de passe");
+                age = prompt("Quel âge a-t-il ?");
+            }
+
+            alert("Oui son nom est " + name + " et il a " + age + " ans.");
+
+            var next_age = prompt("Quel âge aura-t-il dans 10 ans ?");
+            while (next_age !== "27") {
+                alert("Erreur : roudi licoli daba lini");
+                next_age = prompt("Quel âge aura-t-il dans 10 ans ?");
+            }
+
+            alert("Oui il aura " + next_age + " ans.");
+
+            var password = prompt("Quel est le mot de passe ? ");
+            while (password !== "mboyaho") {
+                alert("Erreur : nadjéli wako licha ou gaou");
+                password = prompt("Quel est le mot de passe ? ");
+            }
+
+            alert("Tu peux accéder à ton compte");
+        }
+    </script>
+
+    <button style="position: absolute;right: 50%;top: 50%;justify-content: center;" onclick="validateForm()">Cliquez ici pour commencer</button>
+</body>
+</html>
