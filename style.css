@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/img/dandelion-1557110.jpg);
+    background-size: cover;
+}
+
+.bouton {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 2em;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: black;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+
+.bouton:hover {
+    background-color:rgba(0, 0, 0, 0.568);
+    color: white;
+}
